@@ -1,0 +1,37 @@
+.site-ca {
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  color: var(--ink);
+  font-size: 0.8125rem;
+}
+.site-ca__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0.45rem var(--gutter);
+}
+.site-ca__label {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  opacity: 0.75;
+}
+.site-ca__code {
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 0.8125rem;
+  word-break: break-all;
+}
+.site-ca__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.site-ca .btn--tiny {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+}

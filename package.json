@@ -1,0 +1,8 @@
+{
+  "name": "startupsi-clone",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
